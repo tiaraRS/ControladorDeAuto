@@ -7,6 +7,9 @@ describe("controlarAuto", () => {
   it("deberia quedarse en la misma posicion para comando B", () => {
     expect(controlarAuto("B")).toEqual("(4,0)N");
   });
+  it("deberia quedarse en la misma posicion para comando ''", () => {
+    expect(controlarAuto("")).toEqual("(4,0)N");
+  });
 
  
 });
