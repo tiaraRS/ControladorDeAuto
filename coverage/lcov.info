@@ -3,14 +3,14 @@ SF:src\ControladorDeAuto.js
 FN:1,controlarAuto
 FNF:1
 FNH:1
-FNDA:9,controlarAuto
-DA:2,9
+FNDA:10,controlarAuto
+DA:2,10
 DA:3,8
 DA:4,6
 DA:5,3
 LF:4
 LH:4
-BRDA:2,0,0,1
+BRDA:2,0,0,2
 BRDA:2,0,1,8
 BRDA:3,1,0,2
 BRDA:3,1,1,6
