@@ -14,6 +14,9 @@ describe("controlarAuto", () => {
   it("deberia avanzar una posicion con el comando 'ABAAA'", () => {
     expect(controlarAuto("ABAAA")).toEqual("(4,1)N");
   });
+  it("deberia avanzar una posicion con el comando 'ABASDFAAA'", () => {
+    expect(controlarAuto("ABASDFAAA")).toEqual("(4,1)N");
+  });
 
  
 });
