@@ -37,5 +37,8 @@ describe("controlarAuto", () => {
   it("deberia avanzar una posicion con el comando 'AFDSDAFDS'", () => {
     expect(controlarAuto("AFDSDAFDS")).toEqual("(4,1)N");
   });
+  it("deberia avanzar una posicion con el comando 'D'", () => {
+    expect(controlarAuto("D")).toEqual("(4,0)E");
+  });
  
 });
