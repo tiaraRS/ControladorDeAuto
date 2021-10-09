@@ -27,5 +27,9 @@ describe("controlarAuto", () => {
   it("deberia quedarse en la misma posicion con el comando 'DIABDE'", () => {
     expect(controlarAuto("DIABDE")).toEqual("(4,0)N");
   });
+  //F3 : permitir giro a derecha antes de avanzar 1 posicion
+  it("deberia avanzar una posicion con el comando 'DA'", () => {
+    expect(controlarAuto("DA")).toEqual("(5,0)E");
+  });
  
 });

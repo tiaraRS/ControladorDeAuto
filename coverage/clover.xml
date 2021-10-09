@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1633740749813" clover="3.2.0">
-  <project timestamp="1633740749813" name="All files">
-    <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1" elements="8" coveredelements="8" complexity="0" loc="3" ncloc="3" packages="1" files="1" classes="1"/>
+<coverage generated="1633741977418" clover="3.2.0">
+  <project timestamp="1633741977418" name="All files">
+    <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1" elements="11" coveredelements="11" complexity="0" loc="4" ncloc="4" packages="1" files="1" classes="1"/>
     <file name="ControladorDeAuto.js" path="D:\UNIVERSIDAD\SEMESTRE 6\ING DE SW\PROYECTOS\Controlador de Auto\parcel-jest-base\src\ControladorDeAuto.js">
-      <metrics statements="3" coveredstatements="3" conditionals="4" coveredconditionals="4" methods="1" coveredmethods="1"/>
-      <line num="2" count="8" type="cond" truecount="2" falsecount="0"/>
-      <line num="3" count="6" type="cond" truecount="2" falsecount="0"/>
-      <line num="4" count="3" type="stmt"/>
+      <metrics statements="4" coveredstatements="4" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <line num="2" count="9" type="cond" truecount="2" falsecount="0"/>
+      <line num="3" count="8" type="cond" truecount="2" falsecount="0"/>
+      <line num="4" count="6" type="cond" truecount="2" falsecount="0"/>
+      <line num="5" count="3" type="stmt"/>
     </file>
   </project>
 </coverage>
