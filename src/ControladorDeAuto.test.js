@@ -24,5 +24,8 @@ describe("controlarAuto", () => {
   it("deberia devolver (3,0)O con el comando 'IABDE'", () => {
     expect(controlarAuto("IABDE")).toEqual("(3,0)O");
   });
+  it("deberia quedarse en la misma posicion con el comando 'DIABDE'", () => {
+    expect(controlarAuto("DIABDE")).toEqual("(4,0)N");
+  });
  
 });
