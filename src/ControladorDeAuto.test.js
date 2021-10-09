@@ -21,5 +21,8 @@ describe("controlarAuto", () => {
   it("deberia devolver (3,0)O con el comando 'IA'", () => {
     expect(controlarAuto("IA")).toEqual("(3,0)O");
   });
+  it("deberia devolver (3,0)O con el comando 'IABDE'", () => {
+    expect(controlarAuto("IABDE")).toEqual("(3,0)O");
+  });
  
 });
