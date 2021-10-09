@@ -24,8 +24,8 @@ describe("controlarAuto", () => {
   it("deberia devolver (3,0)O con el comando 'IABDE'", () => {
     expect(controlarAuto("IABDE")).toEqual("(3,0)O");
   });
-  it("deberia quedarse en la misma posicion con el comando 'DIABDE'", () => {
-    expect(controlarAuto("DIABDE")).toEqual("(4,0)N");
+  it("deberia quedarse en la misma posicion con el comando 'OIABDE'", () => {
+    expect(controlarAuto("OIABDE")).toEqual("(4,0)N");
   });
   //F3 : permitir giro a derecha antes de avanzar 1 posicion
   it("deberia avanzar una posicion con el comando 'DA'", () => {
@@ -37,8 +37,11 @@ describe("controlarAuto", () => {
   it("deberia avanzar una posicion con el comando 'AFDSDAFDS'", () => {
     expect(controlarAuto("AFDSDAFDS")).toEqual("(4,1)N");
   });
-  it("deberia avanzar una posicion con el comando 'D'", () => {
+  it("deberia girar con el comando 'D'", () => {
     expect(controlarAuto("D")).toEqual("(4,0)E");
+  });
+  it("deberia girar con el comando 'DEF'", () => {
+    expect(controlarAuto("DEF")).toEqual("(4,0)E");
   });
  
 });
